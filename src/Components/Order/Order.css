@@ -1,0 +1,90 @@
+.order-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .selected-items, .delivery-details {
+    margin: 20px 0;
+  }
+  
+  .selected-items h3 {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .selected-items ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .selected-items li {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .selected-items li:last-child {
+    border-bottom: none;
+  }
+  
+  .delivery-details h3 {
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .delivery-details form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delivery-details label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .delivery-details input, .delivery-details textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .delivery-details input:focus, .delivery-details textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .delivery-details button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delivery-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delivery-details button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+  }
+  

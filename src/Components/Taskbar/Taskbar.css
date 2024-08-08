@@ -1,0 +1,28 @@
+.taskbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.taskbar h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  animation: fadeInLeft 1s ease-out;
+}
+
+.taskbar .links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.taskbar .links a:hover {
+  color: #d1c938;
+  text-decoration: underline;
+}
